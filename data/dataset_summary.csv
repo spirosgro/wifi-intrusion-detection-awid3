@@ -1,0 +1,4 @@
+class,records,share_percent,scope_note
+Normal,11880478,96.65,Reported three-class assignment subset
+Flooding,305876,2.49,Deauthentication; disassociation; association flooding; Kr00k
+Impersonation,106162,0.86,Rogue AP; Evil Twin; KRACK

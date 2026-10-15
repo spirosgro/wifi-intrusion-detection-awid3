@@ -1,0 +1,17 @@
+feature,domain,reference_preprocessing,security_interpretation
+frame.len,Frame metadata,Continuous scaling,Frame size can distinguish management traffic from data traffic
+radiotap.length,Radiotap,Continuous scaling,Radiotap header size reflects capture and interface context
+radiotap.dbm_antsignal,Radiotap,Continuous scaling,Signal-strength shifts can support impersonation analysis but remain location-dependent
+wlan.duration,802.11 MAC,Continuous scaling,Duration values can change with frame type and medium reservation
+radiotap.present.tsft,Radiotap,Categorical encoding,Presence flag describes available capture metadata
+radiotap.channel.freq,Radiotap,Continuous scaling,Channel frequency can expose capture-specific behavior and must be validated for transfer
+radiotap.channel.type.cck,Radiotap,Categorical encoding,Channel modulation flag
+radiotap.channel.type.ofdm,Radiotap,Categorical encoding,Channel modulation flag
+wlan.fc.type,802.11 frame control,Categorical encoding,Separates management control and data frames
+wlan.fc.subtype,802.11 frame control,Categorical encoding,Identifies management and control subtypes
+wlan.fc.ds,802.11 frame control,Categorical encoding,Encodes distribution-system direction
+wlan.fc.frag,802.11 frame control,Categorical encoding,Indicates additional fragments
+wlan.fc.retry,802.11 frame control,Categorical encoding,Indicates retransmission
+wlan.fc.pwrmgt,802.11 frame control,Categorical encoding,Power-management state
+wlan.fc.moredata,802.11 frame control,Categorical encoding,Indicates buffered data
+wlan.fc.protected,802.11 frame control,Categorical encoding,Indicates protected frame payload

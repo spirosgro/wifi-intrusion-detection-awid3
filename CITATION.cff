@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this portfolio project, cite this repository and the original AWID3 research."
+title: "Wi-Fi Intrusion Detection with AWID3"
+type: software
+authors:
+  - family-names: Grouztidis
+    given-names: Spiros
+version: 1.0.0
+date-released: 2026-10-15
+license: MIT
+repository-code: "https://github.com/spirosgro/wifi-intrusion-detection-awid3"
+preferred-citation:
+  type: generic
+  title: "Wi-Fi Intrusion Detection with AWID3"
+  authors:
+    - family-names: Grouztidis
+      given-names: Spiros
+  year: 2026

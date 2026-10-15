@@ -1,0 +1,23 @@
+random_state: 42
+test_size: 0.20
+label_candidates: [Label, label, Attack, attack, class, Class]
+group_column: source_file
+classes: [Normal, Flooding, Impersonation]
+continuous_features:
+  - frame.len
+  - radiotap.length
+  - radiotap.dbm_antsignal
+  - wlan.duration
+  - radiotap.channel.freq
+categorical_features:
+  - radiotap.present.tsft
+  - radiotap.channel.type.cck
+  - radiotap.channel.type.ofdm
+  - wlan.fc.type
+  - wlan.fc.subtype
+  - wlan.fc.ds
+  - wlan.fc.frag
+  - wlan.fc.retry
+  - wlan.fc.pwrmgt
+  - wlan.fc.moredata
+  - wlan.fc.protected

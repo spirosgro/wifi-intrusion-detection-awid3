@@ -1,0 +1,7 @@
+model,accuracy_percent,balanced_accuracy_percent,macro_precision_percent,macro_recall_percent,macro_f1_percent,training_seconds,status
+Random Forest,98.74,98.78,97.95,98.78,98.36,95.5,reported_unverified
+Extra Trees,98.75,98.78,98.00,98.78,98.39,152.2,reported_unverified
+HistGradientBoosting,98.77,98.59,98.73,98.59,98.66,46.2,reported_unverified
+Decision Tree,98.74,98.78,97.92,98.78,98.34,11.8,reported_unverified
+XGBoost,98.79,98.74,98.74,98.74,98.74,75.6,reported_unverified
+LightGBM,98.73,98.74,97.66,98.74,98.19,28.0,reported_unverified

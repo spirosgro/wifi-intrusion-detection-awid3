@@ -1,0 +1,8 @@
+public_class,attack,layer,security_effect,detection_signal,caution
+Flooding,Deauthentication,802.11 management,Availability disruption,Unprotected deauthentication bursts and station churn,PMF and device behavior affect observability
+Flooding,Disassociation,802.11 management,Availability disruption,Disassociation bursts and rapid reconnect cycles,Legitimate roaming can resemble short bursts
+Flooding,Association flooding,802.11 management,Resource exhaustion,High request rate and unusual source diversity,Thresholds require site baselines
+Flooding,Kr00k,802.11 link layer,Confidentiality exposure,Disassociation context and anomalous protected-frame behavior,Feature-only classification does not prove exploitation
+Impersonation,Rogue access point,802.11 management,Credential or traffic interception,SSID and BSSID conflict with location and signal anomalies,RF conditions can shift naturally
+Impersonation,Evil Twin,Multi-layer,Credential theft and interception,SSID duplication plus captive-portal or identity anomalies,Requires corroboration beyond frame classification
+Impersonation,KRACK,802.11 key management,Key reinstallation and nonce reuse,Handshake retransmission anomalies and channel context,Detection requires handshake-aware evidence

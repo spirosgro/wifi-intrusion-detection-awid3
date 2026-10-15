@@ -1,0 +1,7 @@
+model,flooding_false_negatives,impersonation_false_negatives,normal_false_positives,status
+Random Forest,0,4,1357,reported_unverified
+Extra Trees,0,3,1284,reported_unverified
+HistGradientBoosting,475,90,161,reported_unverified
+Decision Tree,0,4,1407,reported_unverified
+XGBoost,0,79,168,reported_unverified
+LightGBM,0,3,1702,reported_unverified
