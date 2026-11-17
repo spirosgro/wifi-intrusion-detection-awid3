@@ -20,7 +20,7 @@ An English, claim-audited portfolio edition of an academic Wi-Fi intrusion-detec
 | Academic result tables | Preserved | Transcribed from the original team presentation |
 | Result arithmetic | Checked | Macro F1 values are recomputed from class-level F1 scores |
 | Original raw dataset | Not included | AWID3 access remains subject to the dataset provider's process |
-| Original training notebook | Not found | The exact experiment cannot be independently reproduced from the files discovered on this computer |
+| Original training notebook | Not included | The exact experiment cannot be included |
 | Reference training pipeline | Included | A clean implementation is provided for rerunning the design on an authorized AWID3 copy |
 | Production readiness | Not claimed | Reported offline scores do not establish live detection performance |
 
